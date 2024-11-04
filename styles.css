@@ -1,6 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
 
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-stone-100: hsl(30, 54%, 90%);
+  --color-stone-150: hsl(30, 18%, 87%);
+  --color-stone-600: hsl(30, 10%, 34%);
+  --color-stone-900: hsl(24, 5%, 18%);
+  --color-brown-800: hsl(14, 45%, 36%);
+  --color-rose-800: hsl(332, 51%, 32%);
+  --color-rose-50: hsl(330, 100%, 98%);
+}
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+body {
+  background-color: var(--color-stone-100);
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background-color: var(--color-white);
+  width: 737px;
+  height: 1711px;
+  border-radius: 10px;
+  margin-top: 123px;
+  padding: 40px;
+}
+
+.header {
+  width: 655px;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+h1{
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  color: var(--color-stone-900);
+  font-size: 48px;
+}
+
+h2{
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  color: var(--color-brown-800);
+  font-size: 28px;
+}
+
+h3{
+  font-family: "Outfit", serif;
+  color: var(--color-rose-800);
+  font-size: 20px;
+}
+
+p, li, table{
+  font-family: "Outfit", serif;
+  color: var(--color-stone-600);
+  font-size: 16px;
+  line-height: 1.5;
+  
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
