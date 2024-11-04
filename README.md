@@ -22,7 +22,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/Flarien/4-recipe-page)
-- Live Site URL: [GitHub Pages](flarien.github.io/4-recipe-page/)
+- Live Site URL: [GitHub Pages](https://flarien.github.io/4-recipe-page/)
 
 ## My process
 
