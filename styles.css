@@ -33,7 +33,7 @@ main {
   border-radius: 25px;
   margin-top: 123px;
   margin-bottom: 50px;
-  padding: 50px;
+  padding: 40px;
 }
 
 .header {
@@ -59,10 +59,11 @@ h2 {
   margin-bottom: 15px;
 }
 
-h3 {
+.sub_title {
   font-family: "Outfit", serif;
   color: var(--color-rose-800);
   font-size: 20px;
+  font-weight: 600;
   margin-bottom: 20px;
 }
 
